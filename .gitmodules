@@ -1,0 +1,4 @@
+[submodule "mbrhd/public"]
+	path = mbrhd/public
+	url = https://github.com/mbrhd/mbrhd.github.io.git
+	branch = main
