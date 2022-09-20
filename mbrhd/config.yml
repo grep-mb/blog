@@ -34,58 +34,6 @@ languages:
                   url: categories/
                   weight: 10
 
-    fr:
-        languageName: ":fr:"
-        languageAltTitle: French
-        weight: 2
-        title: PaperModL2
-        profileMode:
-            enabled: true
-            title: PaperMod
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: Tags
-                  url: tags
-                  weight: 10
-                - name: Categories
-                  url: categories
-                  weight: 10
-                - name: Series
-                  url: series
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
-
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        menu:
-            main:
-                - name: Tags
-                  url: tags
-                  weight: 10
-
 outputs:
     home:
         - HTML
@@ -94,9 +42,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
-    # author: ["Me", "You"] # multiple authors
+    description: "Mehdi's blog - https://github.com/mbrhd"
+    author: ["Me"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -125,11 +72,12 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "datatools"
+        Title: "Mehdi's blog"
         Content: >
             Welcome to my blog!
-            - **DataTools** is a blog to share tools and tips for faster data science.
-            - Here you'll find tools and several Python code tips for your data science project.
+              * 📝 Writing is the best exercise to structure ideas.
+              * 🧰 This blog is to share tools and tips for faster data science.
+              * 🔥 Here you'll find tools and several Python code tips for your Machine Learning project.
     socialIcons:
         - name: github
           url: "https://github.com/mbrhd"
@@ -138,7 +86,7 @@ params:
         - name: twitter
           url: "https://twitter.com/mehdi_tweets"
         - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
+          url: "https://ko-fi.com/mbrhd"
         - name: RsS
           url: "index.xml"
 
