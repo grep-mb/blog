@@ -1,7 +1,11 @@
 ---
 title: "Cool cli commands for macos"
 date: 2023-02-09T14:45:06+01:00
-draft: true
+draft: false
+cover:
+    image: './macos_terminal'
+    alt: 'macos terminal' 
+    caption: 'macos terminal'
 ---
 
 # Cool CLI commands for macos
