@@ -91,6 +91,6 @@ params:
           url: "index.xml"
 
     editPost:
-        URL: "https://github.com/mbrhd/blog/tree/547535bebc9f52880af9602d63702a7780fc19ad/mbrhd/content/"
+        URL: "https://github.com/mbrhd/blog/tree/master/mbrhd/content/posts"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link

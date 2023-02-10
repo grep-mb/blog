@@ -6,6 +6,8 @@ cover:
     image: ./macos_terminal.jpg
     alt: 'macos terminal' 
     caption: 'macos terminal'
+tags: ["macos", "cli"]
+categories: ["tech", "cli", "tools"]
 ---
 
 # Cool CLI commands for macos
